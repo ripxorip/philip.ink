@@ -3,7 +3,7 @@ name: Hugo
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: '47 * * * *'  # “At minute 47.”
   workflow_dispatch:
