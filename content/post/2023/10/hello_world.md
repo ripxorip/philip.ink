@@ -6,7 +6,7 @@ author = "Philip K. Gisslow"
 tags = ['linux' ]
 +++
 
-This is a hello world
+This is a Hello World
 
 ## Why
 

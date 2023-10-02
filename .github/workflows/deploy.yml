@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: '47 * * * *'  # “At minute 47.”
   workflow_dispatch:
 
 jobs:
