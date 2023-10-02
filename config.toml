@@ -1,0 +1,42 @@
+baseurl = "https://philip.ink"
+title = "Philip K. Gisslow"
+languageCode = "en-gb"
+theme = "beautifulhugo"
+enableGitInfo = true
+paginate = 20
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Philip K. Gisslow"
+    description = "A bit of personal space for writing"
+    github = "https://github.com/ripxorip/philip.ink"
+    email = "philip@philip.ink"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+    #style = "dark"
+    commit = "https://github.com/ripxorip/philip.ink/tree/"
+
+[Permalinks]
+    post = "/:year/:month/:filename/"
+
+[[menu.main]]
+    url = "https://github.com/ripxorip/philip.ink"
+    name = "Site Source"
+    weight = 9
+
+[[menu.main]]
+    url = "about"
+    name = "About"
+    weight = 6
+
+[[menu.main]]
+    url = "contact"
+    name = "Contact"
+    weight = 7
+
+[[menu.main]]
+    url = "index.xml"
+    name = "RSS"
+    weight = 8
